@@ -1,0 +1,32 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 3rem;
+  padding-inline: 5.0625rem;
+  background-color: var(--task-bg);
+  border-radius: 0.3125rem;
+}
+
+@media screen and (min-width: 768px) {
+  .filters {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 6rem;
+    width: 168px;
+    transform: translateX(50%);
+  }
+}
+
+.filter {
+  background: none;
+  border: none;
+  color: var(--text-color-completed);
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter--active {
+  color: #3a7cfd;
+}

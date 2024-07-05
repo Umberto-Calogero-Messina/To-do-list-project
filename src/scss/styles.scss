@@ -2,3 +2,9 @@
 @use 'base/initial-reset.scss';
 @use 'config/variables.scss';
 @use 'blocks/body.scss';
+@use 'blocks/main.scss';
+@use 'blocks/form.scss';
+@use 'blocks/header.scss';
+@use 'blocks/titles.scss';
+@use 'blocks/task.scss';
+@use 'blocks/filter.scss';
