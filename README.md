@@ -1,18 +1,30 @@
-# Título del proyecto
+# To Do List
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList.webp)
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
+- [ToDo List](https://umberto-calogero-messina.github.io/To-do-list-project/)
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Este proyecto consiste en una aplicación de lista de tareas donde los usuarios pueden agregar, marcar como completadas y filtrar tareas. Además, incluye un botón para cambiar entre los modos claro y oscuro.
+
+Funcionalidades Principales:
+- Agregar Tareas: Los usuarios pueden agregar nuevas tareas a la lista ingresando el texto y presionando "Enter" o haciendo clic en un botón de agregar.
+- Marcar Tareas: Cada tarea en la lista puede ser marcada como completada haciendo clic en una casilla de verificación junto a la tarea.
+- Filtros de Tareas: Hay varios botones de filtro disponibles para facilitar la visualización de tareas:
+- Mostrar Todas: Muestra todas las tareas en la lista.
+- Mostrar Pendientes: Filtra y muestra solo las tareas que aún no han sido completadas.
+- Mostrar Completadas: Filtra y muestra solo las tareas que ya han sido marcadas como completadas.
+- Limpiar Tareas Completadas: Hay un botón dedicado para limpiar rápidamente todas las tareas que han sido marcadas como completadas de la lista.
+- Cambiar Modo Claro/Oscuro: Un botón especial permite cambiar entre un tema de luz y un tema oscuro en la interfaz de usuario, adaptándose a las preferencias del usuario o a las condiciones de iluminación.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
-
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+- Organización Personal: Ayuda a los usuarios a mantenerse organizados al administrar sus tareas diarias de manera efectiva.
+- Personalización de la Interfaz: La capacidad de cambiar entre modos claro y oscuro mejora la experiencia del usuario según sus preferencias visuales.
+- Facilidad de Uso: Interfaz intuitiva y fácil de navegar para una gestión eficiente de tareas.
+- Este proyecto no solo ofrece una forma práctica de gestionar tareas diarias, sino que también incorpora características de accesibilidad y personalización para mejorar la experiencia del usuario.
 
 ## Tecnologías 🛠
 
@@ -20,21 +32,25 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
+[![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://es.wikipedia.org/wiki/CSS)
 
 ## Vista previa del proyecto
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList.webp)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList_night.webp)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList_Mobile.webp)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList_Mobile_night.webp)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList_use2.webp)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/To-do-list-project/main/src/assets/images/ToDoList_use.webp)
+
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**Umberto Calogero Messina**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [ucmessina@gmail.com](ucmessina@gmail.com)
 
 ## Instalación
 
