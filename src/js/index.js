@@ -1,10 +1,13 @@
 // El styles lo importamos aquí, ya se carga después al compilar todo
 import '../scss/styles.scss';
 
+import iconCross from '../assets/images/icon-cross.svg';
+import iconSun from '../assets/images/icon-sun.svg';
+import iconMoon from '../assets/images/icon-moon.svg';
+
 const formElement = document.getElementById('form');
 const itemLeftElement = document.getElementById('items-left');
 const taskElement = document.getElementById('tasks');
-const filterElements = document.querySelectorAll('[data-filter]');
 const clearCompletedElement = document.getElementById('delete-completed');
 const switchElement = document.getElementById('switch');
 const filtersElement = document.getElementById('filters');
@@ -18,10 +21,10 @@ const changeDarkMode = () => {
   darkMode = !darkMode;
   if (darkMode) {
     bodyElement.classList.add('dark');
-    switchElement.src = './assets/images/icon-sun.svg';
+    switchElement.src = iconSun;
   } else {
     bodyElement.classList.remove('dark');
-    switchElement.src = './assets/images/icon-moon.svg';
+    switchElement.src = iconMoon;
   }
 };
 
@@ -92,7 +95,7 @@ const createDeleteImage = task => {
   const newTaskImg = document.createElement('img');
   newTaskImg.classList.add('task-delete');
   newTaskImg.id = task.id;
-  newTaskImg.src = 'assets/images/icon-cross.svg';
+  newTaskImg.src = iconCross;
   return newTaskImg;
 };
 
