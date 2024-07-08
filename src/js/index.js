@@ -7,6 +7,7 @@ const taskElement = document.getElementById('tasks');
 const filterElements = document.querySelectorAll('[data-filter]');
 const clearCompletedElement = document.getElementById('delete-completed');
 const switchElement = document.getElementById('switch');
+const filtersElement = document.getElementById('filters');
 const bodyElement = document.body;
 
 let tasks = [];
@@ -137,17 +138,31 @@ const getFilteredTasks = () => {
   return tasks.filter(filters[currentFilter]);
 };
 
-filterElements.forEach(filterElement => {
-  filterElement.addEventListener('click', () => {
-    document.querySelector('.filter--active').classList.remove('filter--active');
-    filterElement.classList.add('filter--active');
-    currentFilter = filterElement.getAttribute('data-filter');
-    renderTasks();
-  });
-});
+// filterElements.forEach(filterElement => {
+//   filterElement.addEventListener('click', () => {
+//     document.querySelector('.filter--active').classList.remove('filter--active');
+//     filterElement.classList.add('filter--active');
+//     currentFilter = filterElement.getAttribute('data-filter');
+//     renderTasks();
+//     console.log('enter');
+//   });
+// });
+
+const handleFilterClick = event => {
+  const filterElement = event.target;
+
+  console.dir(event.target);
+  if (!filterElement) return;
+
+  document.querySelector('.filter--active').classList.remove('filter--active');
+  filterElement.classList.add('filter--active');
+  currentFilter = filterElement.getAttribute('data-filter');
+  renderTasks();
+};
 
 countTaskRemaining();
 
 switchElement.addEventListener('click', changeDarkMode);
 clearCompletedElement.addEventListener('click', clearCompletedTasks);
 formElement.addEventListener('submit', formSubmitFunction);
+filtersElement.addEventListener('click', handleFilterClick);
