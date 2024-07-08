@@ -138,16 +138,6 @@ const getFilteredTasks = () => {
   return tasks.filter(filters[currentFilter]);
 };
 
-// filterElements.forEach(filterElement => {
-//   filterElement.addEventListener('click', () => {
-//     document.querySelector('.filter--active').classList.remove('filter--active');
-//     filterElement.classList.add('filter--active');
-//     currentFilter = filterElement.getAttribute('data-filter');
-//     renderTasks();
-//     console.log('enter');
-//   });
-// });
-
 const handleFilterClick = event => {
   const filterElement = event.target;
 
