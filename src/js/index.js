@@ -131,7 +131,7 @@ const getFilteredTasks = () => {
   const filters = {
     active: task => !task.completed,
     completed: task => task.completed,
-    all: task => true
+    all: task => currentFilter
   };
 
   return tasks.filter(filters[currentFilter]);
