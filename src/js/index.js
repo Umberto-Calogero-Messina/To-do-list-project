@@ -151,8 +151,7 @@ const getFilteredTasks = () => {
 const handleFilterClick = event => {
   const filterElement = event.target;
 
-  console.dir(event.target);
-  if (!filterElement) return;
+  if (!filterElement.dataset.filter) return;
 
   document.querySelector('.filter--active').classList.remove('filter--active');
   filterElement.classList.add('filter--active');
