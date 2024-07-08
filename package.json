@@ -13,6 +13,7 @@
     "cssnano": "^5.1.15",
     "postcss": "^8.4.38",
     "postcss-preset-env": "^7.8.3",
+    "rollup-plugin-copy": "^3.5.0",
     "sass": "^1.74.1",
     "sharp": "^0.33.3",
     "svgo": "^3.2.0",
