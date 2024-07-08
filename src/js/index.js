@@ -117,8 +117,14 @@ const clearCompletedTasks = () => {
 
 const countTaskRemaining = () => {
   const itemsLeft = tasks.filter(task => !task.completed).length;
-  itemLeftElement.textContent =
-    tasks.length === 0 ? 'No tasks' : itemsLeft === 0 ? 'All tasks completed!' : `${itemsLeft} items left`;
+
+  if (tasks.length === 0) {
+    itemLeftElement.textContent = 'No tasks';
+  } else if (itemsLeft === 0) {
+    itemLeftElement.textContent = 'All tasks completed!';
+  } else {
+    itemLeftElement.textContent = `${itemsLeft} items left`;
+  }
 };
 
 const getFilteredTasks = () => {
